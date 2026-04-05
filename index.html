@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job application</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+    <p><span class="small">Job</span><span class="good">portal</span></p>
+      <navigate>
+        <a href="index.html">Home</a>
+        <a href="index.html">jobs</a>
+        <a href="index.html">Apply</a>
+        <a href="index.html">Contact</a>
+        <a href="index.html">login</a>
+      </navigate>
+    </header>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <h3>Start your<br />career journey</h3>
+          <p>Apply for jobs and track your<br />application easily</p>
+          
+        </td>
+        <td>
+          <img
+            src="EXCELLENCY-modified.png"
+            alt="image of person operating system"
+          />
+        </td>
+      </tr>
+    </table>
+    <h4>Apply for a job</h4>
+    <form action="mailto:umarhussainisaleh34@gmail.com" enctype="text/plain">
+      <label>Full name</label><input type="text" name="name" /> <label>Email</label
+      ><input type="email" name="email" /> <label>Phone number</label><input type="number" name="number"/>
+      <label>Position applied for</label>
+      <select name="job">
+        <option value="selected disable">select job</option>
+        <option>frontend</option>
+        <option>Backend</option>
+        <option>data analysis</option>
+        <option>UI/UX</option>
+        <option>cyber security</option>
+      </select>
+      <label>upload cv</label><input type="file" name="cv" />
+      <input type="submit" class="nom"/>
+    </form>
+  </body>
+</html>
